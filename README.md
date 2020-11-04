@@ -2,7 +2,7 @@
 *[S-VVAD: Visual Voice Activity Detection by Motion Segmentation](Link)
 
 ## Overview
-![BlockDiagram](https://github.com/muhammadshahidwandar/SVVAD/diagrams/Fig_Main.jpg)
+![BlockDiagram](https://github.com/muhammadshahidwandar/S-VVAD/blob/master/diagrams/Fig_Main.jpg)
 
 The Method consist of following steps as shown in figure above
 
