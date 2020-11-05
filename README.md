@@ -36,7 +36,7 @@ Containes some sample train and validation set for modified-columbia dataset as 
 ``datageneratorModifiedColumbia.py``: Image batch generator with segmentation mask and BB from each Image
 
 ``datageneratorTest.py``: Sequential image batch generator with only BB annoation
-### FCN-Training
+### FCN-Testing
 ``TestFCN_Main``: To Reload and test the trained FCN model on a test set and saving the generated masks
 ``datageneratorTest.py``: Test image batch geneartor 
 
