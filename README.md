@@ -19,10 +19,10 @@ The Method consist of following steps as shown in figure above
 6. Bounding Box Generation around speaking and notspeaking segmented Cues. We used from (https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AffinityPropagation.html) for this step.
 
 ## Sub-directories and Files
-There are three sub-directories described as follows:
+There are four sub-directories described as follows:
 
 ### images
-Containes some sample images of intermediate stages.
+Containes over all training block diagram and some sample images of intermediate stages such as CAMs for speaking and not-speaking overlayed on Dynamic image and Raw CAMs as well, mask generation images.
 
 ### VAD-Mask-Generation
 Containes some sample train and validation set for modified-columbia dataset as explained in S-VVAD paper.  
