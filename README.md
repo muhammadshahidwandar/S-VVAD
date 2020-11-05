@@ -6,7 +6,7 @@
 
 The Method consist of following steps as shown in figure above
 
-1. Training a ResNet50 model with the pre-trained weights used for network initialization. Any framework or Code can be used but We used code from (RealVAD)(https://github.com/muhammadshahidwandar/Visual-VAD-Unsupervised-Domain-Adaptation) for this step.  
+1. Training a ResNet50 model with the pre-trained weights used for network initialization. Any framework or Code can be used. We used code from (RealVAD)(https://github.com/muhammadshahidwandar/Visual-VAD-Unsupervised-Domain-Adaptation) for this step.  
 
 2. Class activation map generation using Gradient-CAM for Voice Activity Detection (VAD) labels: 0: not-speaking, 1: speaking. We used code from (https://github.com/insikk/Grad-CAM-tensorflow)
 
@@ -17,13 +17,13 @@ The Method consist of following steps as shown in figure above
 ## Sub-directories and Files
 There are three sub-directories described as follows:
 
-### Images
-Containes some sample dynamic images with their coresponding mask generated images used for the training of FCN
+### images
+Containes some sample group dynamic images with their coresponding mask generated images used for the training of FCN
 
-### Modified-Columbia
+### VAD-Mask-Generation
 Containes some sample train and validation set for modified-columbia dataset as explained in S-VVAD paper.  
 
-### Resnet-Finetuning
+### FCN-Training 
 
 ``Train_Main``: To train ResNet model on a given dataset 
 
@@ -50,7 +50,7 @@ Some pre-trained ResNet50 model can be downloaded from this link (https://drive.
 * Tensorflow 1.12
 * Opencv 3.0
 * Natsort 7.0.1
-* Matlab 2017b
+
 
 ## How it works
 1- Obtain your target datasets e.g.  RealVAD (https://github.com/IIT-PAVIS/Voice-Activity-Detection)
