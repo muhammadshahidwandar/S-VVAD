@@ -6,9 +6,9 @@
 
 The Method consist of following steps as shown in figure above
 
-1. Training a ResNet50 model with the pre-trained weights used for network initialization. We used code from (RealVAD)(https://github.com/muhammadshahidwandar/Visual-VAD-Unsupervised-Domain-Adaptation) for this step  
+1. Training a ResNet50 model with the pre-trained weights used for network initialization. Any framework or Code can be used but We used code from (RealVAD)(https://github.com/muhammadshahidwandar/Visual-VAD-Unsupervised-Domain-Adaptation) for this step.  
 
-2. Class activation map generation using Gradient-CAM for Voice Activity Detection (VAD) labels: 0: not-speaking, 1: speaking. We used code from (RealVAD)(https://github.com/muhammadshahidwandar/Visual-VAD-Unsupervised-Domain-Adaptation)
+2. Class activation map generation using Gradient-CAM for Voice Activity Detection (VAD) labels: 0: not-speaking, 1: speaking. We used code from (https://github.com/insikk/Grad-CAM-tensorflow)
 
 3. VAD-motion-cues-based mask generation.
  
