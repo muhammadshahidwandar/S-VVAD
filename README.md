@@ -51,11 +51,11 @@ Some pre-trained ResNet50 model for tensorflow can be downloaded from this link 
 
 
 ## How it works
-1- Obtain your target datasets e.g.  ModifiedColumbia Dataset (https://github.com/IIT-PAVIS/Voice-Activity-Detection)
+1- Obtain your target datasets e.g.  RealVAD Dataset (https://github.com/IIT-PAVIS/Voice-Activity-Detection)
 
 2- Generate and save the dynamic image by using (https://github.com/hbilen/dynamic-image-nets) 
 
-3- Define your training and test folds in the text files (example files as given as ModifiedColmbTrain1.txt and ModifiedColmbTest1.txt in ValidationFold sub-directory)
+3- Define your training and test folds in the text files (example files given as trainRealVAD1.txt and testRealVAD1.txt in ValidationFold sub-directory)
 
 4- Change paths and parameters in FCN_Train_Main.py to train ResNet model
 
