@@ -65,12 +65,12 @@ Some pre-trained ResNet50 model for tensorflow can be downloaded from this link 
 ## Reference
 
 **S-VVAD: Visual Voice Activity Detection by Motion Segmentation**  
-Muhammad Shahid,Cigdem Beyan and Vittorio Murino,
+Muhammad Shahid, Cigdem Beyan and Vittorio Murino, IEEE Winter Conference on Applications of Computer Vision (WACV), 2021.
 ```
-@inproceedings{shahid2019SVVAD,
+@inproceedings{shahid2020_WACV,
   title={Visual Voice Activity Detection by Motion Segmentation},
   author={Shahid, Muhammad and Beyan, Cigdem and Murino, Vittorio},
-  booktitle={The IEEE Winter Conference on Applications of Computer Vision},,
+  booktitle={2021 IEEE Winter Conference on Applications of Computer Vision (WACV)},
   pages={0--0},
   year={2021}
 }
