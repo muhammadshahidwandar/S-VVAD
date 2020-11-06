@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 import resnet_fcn
-from datageneratorModifiedColumbia import ImageDataGeneratorTrain  #datageneratorTest
+from datageneratorRealVAD import ImageDataGeneratorTrain  #datageneratorTest
 from datageneratorTest import ImageDataGeneratorTest  #datageneratorTest
 import time
 import  scipy
